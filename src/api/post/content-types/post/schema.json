@@ -18,9 +18,6 @@
     "Excerpt": {
       "type": "string"
     },
-    "Content": {
-      "type": "blocks"
-    },
     "FeaturedImage": {
       "type": "media",
       "multiple": false,
