@@ -31,6 +31,12 @@
     },
     "ContentMarkdown": {
       "type": "richtext"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "Tags": {
+      "type": "string"
     }
   }
 }
