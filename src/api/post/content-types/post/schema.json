@@ -37,6 +37,33 @@
     },
     "Tags": {
       "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "SpecialNotes": {
+      "type": "text"
+    },
+    "Servings": {
+      "type": "string"
+    },
+    "PrepTime": {
+      "type": "string"
+    },
+    "CookTime": {
+      "type": "string"
+    },
+    "Calories": {
+      "type": "string"
+    },
+    "Equipments": {
+      "type": "richtext"
+    },
+    "Ingredients": {
+      "type": "richtext"
+    },
+    "EndingNotes": {
+      "type": "richtext"
     }
   }
 }
