@@ -32,12 +32,6 @@
     "ContentMarkdown": {
       "type": "richtext"
     },
-    "Category": {
-      "type": "string"
-    },
-    "Tags": {
-      "type": "string"
-    },
     "slug": {
       "type": "string"
     },
@@ -64,6 +58,16 @@
     },
     "EndingNotes": {
       "type": "richtext"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
     }
   }
 }
